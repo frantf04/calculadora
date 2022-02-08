@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+body{
+  background: #242424;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+h1, h2{
+  color: #fff;
+}
+.container{
+  margin: auto;
+  width: 500px;
+  max-width: 90%;
+  /* border: 1px solid #fff ; */
+  display: flex;
+  flex-direction: column;
+  padding:2rem;
+  gap: 1.5rem;
+  border-radius: 5px;
+  box-shadow:inset 0 0 15px #fff;
+
+}
+
+input, #operacion{
+  padding: .5rem 1rem;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+
+  
+}
+
+button{
+  padding: .5rem 1rem;
+  border: none;
+  background: rgb(85, 211, 68);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+
+}
+button:active{
+  transform: scale(.98);
+}
+
